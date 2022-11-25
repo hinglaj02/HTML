@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+    <H1>HTML Links - Hyperlinks</H1>
+
+    <h2> 1. Absolute URLs vs. Relative URLs</h2>
+
+    <h2>Absolute URLs</h2>
+<p><a href="https://www.appvizer.com/magazine/hr/employee-wellness/empowerment-in-business">Empowering Business</p>
+<p><a href="https://www.appvizer.com/magazine/hr/employee-wellness/empowerment-in-business">Empowering Business</p>
+
+    <h2>Relative URLs</h2>
+<p><a href="https://in.images.search.yahoo.com/search/images;_ylt=AwrPqB1xRIBjMhgYDDK7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj?p=empowering+business+images&fr=mcafee#id=4&iurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fempowering-business-business-concept-loudspeaker-inscription-hand-drawn-illustration-blue-chalkboard-77655112.jpg&action=click">empowerment-in-business</a></p>
+<p><a href="https://in.images.search.yahoo.com/search/images;_ylt=AwrPqB1xRIBjMhgYDDK7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj?p=empowering+business+images&fr=mcafee#id=4&iurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fempowering-business-business-concept-loudspeaker-inscription-hand-drawn-illustration-blue-chalkboard-77655112.jpg&action=click">Empowering Business 1</a></p>
+
+<h2>2. HTML Links - The target Attribute</h2>
+<h3>_self - Default. Opens the document in the same window/tab as it was clicked</h3>
+<a href="https://www.google.com/" target="_self">Google</a>
+<h3>_top - Opens the document in the full body of the window</h3>
+<a href=https://www.google.com/ target="_top">Google _top</a>
+<h3>_parent - Opens the document in the parent frame</h3>
+<a href=https://www.google.com/ target="_parent">Google_parent</a>
+<h3>_blank - Opens the document in a new window or tab</h3>
+<a href=https://www.google.com/ target="_blank">Google_blank</a>
+
+<h3>3.Image as a Link</h3>
+
+<p>The image below is a link. Try to click on it.</p>
+
+<a href="https://www.google.com/ "><img src="C:\Users\Hinglaj Tanwar Saini\OneDrive\Desktop\ADORE OFFICE\HTML\images\google-logo.gif" alt="Google Search" style="width:42px;height:42px;"></a>
+
+<h3>4. Send Mail</h3>
+<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+<p><a href="mailto:someone@example.com">Send email</a></p>
+
+<h3>5.Button as a Link</h3>
+<p>Click the button to go to the HTML tutorial.</p>
+
+<button onclick="window.location.href='https://google.com';">Google </button>
+
+<h3>5. Link Titles</h3>
+
+<p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="https:/google.com" title="Lets Search">Google</a>
+
+<h3>Link Colors</h3>
+
+<p>You can change the default colors of links</p>
+<p>
+<a  class = "link" href="https://google.com" >Google</a> 
+</p>
+
+</body>
+</html>
